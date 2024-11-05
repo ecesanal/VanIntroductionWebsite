@@ -1,0 +1,110 @@
+
+.index-arkaplan-karanlik{
+	background-image:url("../resim/karavkg.jpeg"); /* Buradaki rengi istedğin gibi ayarlayabilirsin */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: "Arial Narrow", serif;
+}
+.navigation_bar_karanlik{
+	background-image:url("../resim/navbar.jpeg"); /* Buradaki resmi istedğin gibi ayarlayabilirsin */
+	height:60px;
+	list-style-type:none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navigation_bar_karanlik li a:hover{
+	color: #9e4490;
+}
+.navigation_bar_karanlik li{
+	float: left;
+}
+.navigation_bar_karanlik li a{
+	text-decoration:none;
+	color: #32a8a2; /* Buradaki rengi istediğin gibi ayarlayabilirsin */
+	padding-right:25px;
+	padding-left:25px;
+	font-size:19px;
+	background-repeat:no-repeat;
+	display:block;
+	line-height:60px;
+}
+
+
+.index-arkaplan{
+	background: url(../resim/vkgozu.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: Arial,sans-serif;
+}
+.sayfa-arkaplan{
+	background-color: lightgray;
+}
+.galeri{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.resim{
+	width: 500px;
+	height: 350px;
+	vertical-align: bottom;
+	padding-top: 5px;
+
+}
+table tr td{
+	border: 1px solid darkblue;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.otel-resim{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 450px;
+	height: 450px;
+}
+.baslik{
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	font-weight: bold !important;
+}
+
+.navigation_bar{
+	background-image:url("../resim/navbar2.jpeg");
+	height:60px;
+	list-style-type:none;
+	position: fixed;
+	top: 0; 
+	width: 100%;
+}
+
+.navigation_bar li{
+	float: left;
+}
+
+
+.navigation_bar li a{
+	text-decoration:none;
+	color: black;
+	padding-right:25px;
+	padding-left:25px;
+	font-size:19px;
+	background-repeat:no-repeat;
+	display:block;
+	line-height:60px;
+}
+.navigation_bar li a:hover{ 
+	color: green;
+}
+.yazi-boyutu{
+	font-size: 15px;
+}
+
